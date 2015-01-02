@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<plugin>
+    <name>myAuth</name>
+    <displayName>My Authentication Plugin</displayName>
+    <creationDate>2015-01-02</creationDate>
+    <author>Karen Mikaeka Saavedra Chavez</author>
+    <authorEmail>karen.mikaela@gmail.com</authorEmail>
+    <authorUrl>http://www.karen.mikaela</authorUrl>
+    <license>GNU Gneral Public License v2</license>
+    <description>Plugin that provides basic authentication.</description>
+    <version>1.0.0</version>
+    <type>package</type>
+    <install>
+        <contents>
+            <group name="auth">0</group>
+        </contents>
+        <files>
+            <file path="{PLUGINPATH}">myAuth.readme.txt</file>
+            <file path="{PLUGINPATH}">myAuth.uninstall.txt</file>
+        </files>
+    </install>
+</plugin>

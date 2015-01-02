@@ -1,0 +1,1 @@
+Please after install set type of authentication to internal
